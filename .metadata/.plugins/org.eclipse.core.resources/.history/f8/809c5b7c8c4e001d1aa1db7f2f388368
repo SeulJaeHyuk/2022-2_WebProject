@@ -1,0 +1,9 @@
+package cs.dit.board;
+
+public class Comment {
+	private int num;
+	private int bcode;
+	private int ccode;
+	private String content;
+	private Date regdate;
+}

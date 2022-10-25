@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+	function senData(){
+	var xhttp = new XMLHttpRequest(); //XMLHttpRequest 객체 생성
+	
+	//onready
+	
+	//요청정보 설정 open(method, url, sync, [user, pwd])
+	xhr.open("POST", "myText.txt", true);
+	xhr.send(); //요청을 서버에 전송
+	}
+	</script>
+	<input type='button' onclick='sendData();', value='test'>테스트입니다.
+	<div id="myDiv">
+	</div>
+</body>
+</html>

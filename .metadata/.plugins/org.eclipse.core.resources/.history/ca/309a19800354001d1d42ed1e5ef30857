@@ -1,0 +1,5 @@
+package cs.dit.board;
+
+public class CommentsDto {
+
+}
