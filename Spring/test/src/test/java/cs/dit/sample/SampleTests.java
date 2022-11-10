@@ -4,6 +4,8 @@ import java.sql.Connection;
 
 import javax.sql.DataSource;
 
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,7 @@ public class SampleTests {
 	@Autowired
 	private Restaurant rest;
 	private DataSource ds;
+	private SqlSessionFactory sessionFactory;
 	
 	@Test
 	public void test01() {
@@ -37,6 +40,19 @@ public class SampleTests {
 		} catch (Exception e) {
 			e.printStackTrace();
 			log.error(e.getMessage());
+		}
+	}
+	@Test
+	public void testMybatis() {
+		
+		try(SqlSession session = sessionFactory.openSession();
+				Connection con = session.getConnection())
+		{ 
+			log.info("sqlSession-----------------------------");
+			log.info(session);
+			log.info(con);
+		} catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 	
