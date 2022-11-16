@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\tbn29\Desktop\201929196_º≥¿Á«ı\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4073488321.index
+2512433840.index
+1385958518.index
+2404829295.index
+2125607079.index
+678265528.index
+1862354665.index

@@ -1,0 +1,12 @@
+package cs.dit.board;
+
+public class BoardDto {
+	
+	int num;
+	String p_name;
+	int quantity;
+	int price;
+	
+	public BoardDto() {}
+	
+}

@@ -1,0 +1,14 @@
+package cs.dit.board;
+
+import java.sql.Date;
+
+public class BoardDto {
+	
+	int num;
+	String p_name;
+	int quantity;
+	int price;
+	
+	public BoardDto() {}
+	
+}
