@@ -1,8 +1,0 @@
-package cs.dit.board;
-
-public class CommentsDao {
-
-	private Connection getConnection() throws Exception{
-		
-	}
-}
