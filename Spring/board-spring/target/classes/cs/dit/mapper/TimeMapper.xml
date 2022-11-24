@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+	<mapper namespace="cs.dit.mapper.TimeMapper">
+		<select id="getTime02" resultType="string">
+			select now() <!-- 세미콜론은 쓰면 절대 안된다!!! 세미콜론 쓰면 에러 남!!! -->
+		</select>
+	
+	</mapper>
