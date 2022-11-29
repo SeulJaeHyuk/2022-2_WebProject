@@ -30,7 +30,7 @@ public class BoardServiceTests {
 	@Test
 	public void testGet() {
 	log.info("GET---------------------------");
-	BoardVO board = service.get(32L);
+	BoardVO board = service.get(17L);
 	log.info(board);
 	}
 	
